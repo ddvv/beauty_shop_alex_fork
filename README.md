@@ -1,1 +1,1 @@
-# Buauty Shopgi
+# Buauty Shop
