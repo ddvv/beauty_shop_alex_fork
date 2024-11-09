@@ -1,1 +1,1 @@
-# Buauty Shop
+# Beauty Shop
