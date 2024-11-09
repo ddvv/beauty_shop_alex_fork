@@ -1,6 +1,7 @@
 import search from '../assets/img/search.svg';
 import account from '../assets/img/account.svg';
 import cart from '../assets/img/cart.svg'
+import '../styles/header.css'
 
 function Header () {
     return (
