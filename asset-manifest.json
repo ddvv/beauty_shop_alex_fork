@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/beauty_shop/static/css/main.1b4dddcd.css",
-    "main.js": "/beauty_shop/static/js/main.32449dbf.js",
+    "main.css": "/beauty_shop/static/css/main.a6f0c020.css",
+    "main.js": "/beauty_shop/static/js/main.338e85d7.js",
     "static/js/453.1857fb9d.chunk.js": "/beauty_shop/static/js/453.1857fb9d.chunk.js",
+    "static/media/IMAGE1.svg": "/beauty_shop/static/media/IMAGE1.7d781952007183af861d0a22a79a6ae6.svg",
     "static/media/banner.svg": "/beauty_shop/static/media/banner.5cb9be1c0658160c7f0574eae52de0e5.svg",
+    "static/media/IMAGE.svg": "/beauty_shop/static/media/IMAGE.3521565f82449aac78af38f99cfb4c91.svg",
+    "static/media/img.svg": "/beauty_shop/static/media/img.258fd3bcb86ed4d00b36c77a9c3ec3d2.svg",
     "static/media/cart.svg": "/beauty_shop/static/media/cart.958e54c0f9cf675e19c537fa1f068bfd.svg",
     "static/media/account.svg": "/beauty_shop/static/media/account.a4ec522dd247b8f3790e05a86f00d95e.svg",
     "index.html": "/beauty_shop/index.html",
     "static/media/search.svg": "/beauty_shop/static/media/search.87663a869817a0c464894edefa5f3874.svg",
-    "main.1b4dddcd.css.map": "/beauty_shop/static/css/main.1b4dddcd.css.map",
-    "main.32449dbf.js.map": "/beauty_shop/static/js/main.32449dbf.js.map",
+    "main.a6f0c020.css.map": "/beauty_shop/static/css/main.a6f0c020.css.map",
+    "main.338e85d7.js.map": "/beauty_shop/static/js/main.338e85d7.js.map",
     "453.1857fb9d.chunk.js.map": "/beauty_shop/static/js/453.1857fb9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b4dddcd.css",
-    "static/js/main.32449dbf.js"
+    "static/css/main.a6f0c020.css",
+    "static/js/main.338e85d7.js"
   ]
 }
