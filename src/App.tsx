@@ -8,10 +8,6 @@ import BlossomIMG1 from './assets/img/IMAGE1.svg';
 import BlossomIMG2 from './assets/img/IMAGE.svg';
 
 
-
-
-
-
 function App() {
   return (
     <>

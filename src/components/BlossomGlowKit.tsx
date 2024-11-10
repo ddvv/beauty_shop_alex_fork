@@ -1,6 +1,5 @@
 import React from 'react';
 import '../styles/blossom.css';
-import BlossomIMG from '../assets/img/IMAGE.svg';
 
 interface BlossomGlowKitProps {
   title: string;
