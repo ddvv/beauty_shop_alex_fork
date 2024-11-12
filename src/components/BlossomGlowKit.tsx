@@ -24,7 +24,7 @@ const BlossomGlowKit: React.FC<BlossomGlowKitProps> = ({ title, description, ima
           </div>
           <div className="buttons">
             <a href="/" className="shop-now">Shop Now</a>
-            <a href="/" className="explore-more">Explore More</a>
+            <a href="/" className="explore-more">Explore More →</a>
           </div>
         </div>
         <div className="image-section">

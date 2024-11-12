@@ -106,13 +106,11 @@
 
 .gallery-button {
   padding: 10px 20px;
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: white;
+  font-size: 14px;
+  width: 250px;
   background-color: rgba(245, 163, 183, 1);
   border: none;
-  border-radius: 20px;
+  border-radius: 5px;
   cursor: pointer;
   outline: none;
   transition: background-color 0.3s;

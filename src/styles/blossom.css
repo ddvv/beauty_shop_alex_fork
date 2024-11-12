@@ -64,9 +64,10 @@
 }
 
 .shop-now {
-  padding: 10px 20px;
+  width: 250px;
+  padding: 10px 88px;
   background-color: rgba(245, 163, 183, 1);
-  color: white;
+  color: black;
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.3s;
@@ -74,19 +75,14 @@
 
 .shop-now:hover {
   background-color: black;
+  color: white;
 }
 
 .explore-more {
   padding: 10px 20px;
-  background-color: #B5B5B5;
-  color: white;
   border-radius: 5px;
   text-decoration: none;
   transition: background-color 0.3s;
-}
-
-.explore-more:hover {
-  background-color: #999;
 }
 
 .image-section {
