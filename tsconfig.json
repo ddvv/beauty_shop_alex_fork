@@ -1,6 +1,8 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "ES6",
+    "module": "ESNext",
+    "jsx": "react-jsx",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
     "skipLibCheck": true,
@@ -9,20 +11,12 @@
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "isolatedModules": false,
+    "noEmit": false,
+    "outDir": "./build"
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.tsx",
-    "custom.d.ts"
-  ],
-   "exclude": [
-    "node_modules",
-    "react-app.d.ts"
-  ]
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "build", "babel.config.js", "src/reportWebVitals.js"]
 }
