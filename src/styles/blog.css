@@ -7,7 +7,8 @@
   margin-top: 40px;
   margin-bottom: 40px;
   align-items:center;
-  border: 5px solid red;
+  border-radius: 10px;
+  background-color: #f9f9f9;
 }
 
 .on-the-blog-header {
@@ -25,9 +26,9 @@
 }
 
 .see-all-link {
-    font-size: 14px;
     color: #333;
     text-decoration: none;
+    color: rgba(105, 117, 134, 1);
 }
 
 .articles-container {
@@ -80,14 +81,13 @@
     padding: 10px 20px;
     font-size: 14px;
     font-weight: bold;
-    color: #ffffff;
-    background-color: #333;
-    border: none;
+    background-color: white;
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .read-more-button:hover {
-    background-color: #555;
+    background-color: black;
+    color: white;
 }

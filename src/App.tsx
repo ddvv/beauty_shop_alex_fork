@@ -1,4 +1,3 @@
-// import React from 'react';
 import './App.css';
 import Header from './components/Header'
 import Banner from './components/Banner'
@@ -9,8 +8,8 @@ import BlossomIMG1 from './assets/img/IMAGE1.svg';
 import BlossomIMG2 from './assets/img/IMAGE.svg';
 import Blog from "./components/Blog"
 import Quiz from "./components/SkinQuiz"
-// import InstSection from "./components/InstSection"
-
+import InstSection from "./components/InstSection"
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -31,7 +30,8 @@ function App() {
     />
     <Blog/>
     <Quiz/>
-    {/* <InstSection/> */}
+    <InstSection/>
+    <Footer/>
     </>
   );
 }

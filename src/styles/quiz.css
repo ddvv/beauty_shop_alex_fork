@@ -7,14 +7,16 @@
     align-items: center;
     background: #FEE2E3;
     margin-top: 60px;
-    border: 5px solid red;
+    border-radius: 10px;
 }
 .skin-quiz-content {
     display: flex;
 }
 
 .skin-quiz-text p {
-    font-size: 20px;
+    font-size: 16px;
+    color: rgba(105, 117, 134, 1);
+    width: 65%
 }
 .skin-quiz-text h2 {
     font-size: 36px;
@@ -61,14 +63,6 @@
     color: #383838;
 }
 
-.title {
-    font-family: 'Poppins', sans-serif;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 54px;
-    margin: 0 0 10px;
-}
-
 .description {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -92,7 +86,8 @@
 }
 
 .explore-button:hover {
-    background-color: #e895a9;
+    background-color: black;
+    color: white
 }
 
 .button-text {

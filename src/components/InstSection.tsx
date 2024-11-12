@@ -1,8 +1,9 @@
 import '../styles/inst.css';
-import iamageInst from '../assets/img/forInst.svg'
+import iamageInst from '../assets/img/soft_finish.png'
 
 
-const images = [
+const InstagramSection = () => {
+  const images = [
     iamageInst,
     iamageInst,
     iamageInst,
@@ -13,30 +14,29 @@ const images = [
     iamageInst,
 ];
 
-const InstagramSection = () => {
-    return (
-        <section className="instagram-section">
-            <div className="header">
-                <div className="line"></div>
-                <h2 className="title">Share How You Blossomed with <span className="hashtag">#BloomBeauty</span></h2>
-                <a href="/see-all" className="see-all">See All</a>
-                <div className="line"></div>
+  return (
+      <div className="gallery-container">
+      <header className="gallery-header">
+        <span>SHARE HOW YOU BLOSSOMED WITH </span>
+        <span className="hashtag">#BLOOMBEAUTY</span>
+      </header>
+      <div className="gallery-subheader">
+        <a href="#">See All</a>
+      </div>
+      <div className="gallery-images">
+        {images.map((src, index) => (
+          <div className="gallery-image" key={index}>
+            <img src={src} alt={`Gallery image ${index + 1}`} />
+            <div className="overlay">
+              <button className="overlay-button">See In</button>
+              <button className="overlay-button buy-now">Buy Now</button>
             </div>
-
-            <div className="image-grid">
-                {images.map((image, index) => (
-                    <div key={index} className="image-container">
-                        <img src={image} alt="Instagram post" className="image" />
-                        {/* <div className="overlay">
-                            <button className="button">See In</button>
-                            <button className="button buy-now">Buy Now</button>
-                        </div> */}
-                    </div>
-                ))}
-            </div>
-            <button className="follow-us">Follow Us</button>
-        </section>
-    );
+          </div>
+        ))}
+      </div>
+      <button className="gallery-button">Follow Us</button>
+    </div>
+  );
 };
 
 export default InstagramSection;
