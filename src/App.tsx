@@ -6,6 +6,9 @@ import BestSallers from './components/BestSallers';
 import BlossomGlowKit from './components/BlossomGlowKit'
 import BlossomIMG1 from './assets/img/IMAGE1.svg';
 import BlossomIMG2 from './assets/img/IMAGE.svg';
+import Blog from "./components/Blog"
+import Quiz from "./components/SkinQuiz"
+import InstSection from "./components/InstSection"
 
 
 function App() {
@@ -25,6 +28,9 @@ function App() {
         image={BlossomIMG2} 
         reverse
     />
+    <Blog/>
+    <Quiz/>
+    {/* <InstSection/> */}
     </>
   );
 }
