@@ -36,6 +36,11 @@
   color: black;
 }
 
+.header-nav a:hover {
+  color: rgba(245, 163, 183, 1);
+  cursor: pointer;
+}
+
 .icons {
   display: flex;
   gap: 20px;
@@ -47,6 +52,11 @@
   align-items: center;
   font-size: 10px;
   color: black;
+}
+
+.icon-item:hover {
+  color: rgba(245, 163, 183, 1);
+  cursor: pointer;
 }
 
 .icon-item img {
