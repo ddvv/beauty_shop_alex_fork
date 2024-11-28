@@ -1,5 +1,5 @@
 import '../Item/item.css'
-import cream from '../../../public/assets/img/cream.png'
+import cream from '../../../public/assets/img/aqua.png'
 
 function Item () {
     return (

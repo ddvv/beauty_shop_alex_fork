@@ -1,9 +1,10 @@
-import '../styles/footer.css';
-import facebook from '../../public/assets/img/facebook.png'
-import pinterst from '../../public/assets/img/pinterst.png'
-import twitter from '../../public/assets/img/twitter.png'
-import instagram from '../../public/assets/img/instagram.png'
-import telegram from '../../public/assets/img/telegram.png'
+import './footer.css';
+import facebook from '../../../public/assets/img/facebook.png'
+import pinterst from '../../../public/assets/img/pinterst.png'
+import twitter from '../../../public/assets/img/twitter.png'
+import instagram from '../../../public/assets/img/instagram.png'
+import telegram from '../../../public/assets/img/telegram.png'
+
 
 function Footer() {
   return (

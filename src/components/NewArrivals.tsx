@@ -7,10 +7,10 @@ function NewArrivals () {
         <h2>NEW ARRIVALS</h2>
         <a href="/NEW ARRIVALS" className="see-all-arrivals">See All</a>
         <div className="container-arrivals">
-                <Item/>
-                <Item/>
-                <Item/>
-                <Item/>
+            <Item/>
+            <Item/>
+            <Item/>
+            <Item/>
         </div>
         </>
     )

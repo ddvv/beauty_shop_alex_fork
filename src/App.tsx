@@ -1,7 +1,7 @@
 import './App.css';
 import './App.css';
-import Header from './layout/Header'
-import Banner from './components/Banner'
+import Header from './layout/Header/Header'
+import Banner from './components/Banner/Banner'
 import NewArrivals from './components/NewArrivals';
 import BestSallers from './components/BestSallers';
 import BlossomGlowKit from './components/BlossomGlowKit'
@@ -10,7 +10,7 @@ import BlossomIMG2 from '../public/assets/img/BlossomIMG.svg';
 import Blog from './components/Blog'
 import Quiz from './components/BannerSkinQuiz'
 import InstSection from "./components/InstSection"
-import Footer from './layout/Footer';
+import Footer from './layout/Footer/Footer';
 
 function App() {
   return (
