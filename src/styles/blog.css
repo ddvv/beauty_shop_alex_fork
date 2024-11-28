@@ -37,6 +37,16 @@
     justify-content: center;
 }
 
+ .title-blog {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .title-blog img {
+    margin: 15px 0;;
+  }
+ 
 .article-card {
    background: #ffffff;
     border-radius: 8px;

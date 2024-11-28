@@ -1,12 +1,15 @@
 import '../styles/blog.css';
 import blogImg from '../../public/assets/img/blog.svg'
+import flowerLeft from "../../public/assets/img/leftFlower.png"
+import flowerRight from "../../public/assets/img/rightFlower.png"
+
 
 const articles = [
     {
         id: 1,
         title: 'Cracking the Coconut Code',
         description: 'Reveal your skin’s natural glow with our Lotus Glow Kit. Nourishing body and face creams',
-        image: 'https://link-to-image1.com', // Замените на реальные ссылки на изображения
+        image: 'https://link-to-image1.com', 
     },
     {
         id: 2,
@@ -26,7 +29,11 @@ const Blog = () => {
     return (
         <section className="on-the-blog">
             <header className="on-the-blog-header">
-                <h2>On the Blog</h2>
+                <div className="title-blog">
+                    <img src={flowerRight} alt='flower'/>
+                        <h2>On the Blog</h2>
+                    <img src={flowerLeft} alt='flower'/>   
+                </div>
                 <a href="/blog" className="see-all-link">See All</a>
             </header>
             <div className="articles-container">
