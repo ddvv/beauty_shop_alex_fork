@@ -17,6 +17,17 @@
     margin-bottom: 5px
   }
 
+   .title-new-sellers {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  .title-new-sellers img {
+    margin: 20px 0;;
+  }
+ 
+
   .see-all-sallers {
     text-decoration: none;
     color: rgba(105, 117, 134, 1);

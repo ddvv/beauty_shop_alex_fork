@@ -10,12 +10,16 @@
     background-color: #f9f9f9;
   }
 
-  h2 {
+  .title-new-arrivals {
     display: flex;
     justify-content: center;
-    margin: 20px
+    align-items: flex-end;
   }
 
+  .title-new-arrivals img {
+    margin: 20px 0;;
+  }
+ 
   .see-all-arrivals {
     text-decoration: none;
     color: rgba(105, 117, 134, 1);
