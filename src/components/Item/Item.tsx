@@ -1,5 +1,5 @@
-import '../ui/styles_ui/item.css'
-import img from '../ui/images/img2.svg'
+import '../Item/item.css'
+import img from '../../assets/img/cream.png'
 
 function Item () {
     return (

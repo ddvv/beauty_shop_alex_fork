@@ -1,4 +1,4 @@
-import Item from "../ui/Item"
+import Item from "../components/Item/Item"
 import '../styles/newArrivals.css'
 
 function NewArrivals () {
