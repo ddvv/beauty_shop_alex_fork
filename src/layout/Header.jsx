@@ -1,8 +1,8 @@
-import search from '../assets/img/search.svg';
-import account from '../assets/img/account.svg';
-import cart from '../assets/img/cart.svg';
+import search from '../../public/assets/img/search.svg';
+import account from '../../public/assets/img/account.svg';
+import cart from '../../public/assets/img/cart.svg';
 import '../styles/header.css';
-import Modal from './Modal/Modal';
+import Modal from '../components/Modal/Modal';
 import { useState } from 'react';
 
 function Header() {

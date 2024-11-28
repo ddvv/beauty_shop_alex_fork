@@ -1,5 +1,5 @@
 import '../styles/blog.css';
-import blogImg from '../assets/img/blog.svg'
+import blogImg from '../../public/assets/img/blog.svg'
 
 const articles = [
     {

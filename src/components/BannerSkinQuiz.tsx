@@ -1,5 +1,5 @@
 import '../styles/quiz.css';
-import mask from '../assets/img/mask.svg'
+import mask from '../../public/assets/img/mask.svg'
 
 const SkinQuiz = () => {
     return (

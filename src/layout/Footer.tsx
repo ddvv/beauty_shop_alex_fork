@@ -1,14 +1,9 @@
 import '../styles/footer.css';
-import facebook from '../assets/img/facebook.png'
-import pinterst from '../assets/img/pinterst.png'
-import twitter from '../assets/img/twitter.png'
-import instagram from '../assets/img/instagram.png'
-import telegram from '../assets/img/telegram.png'
-
-
-
-
-
+import facebook from '../../public/assets/img/facebook.png'
+import pinterst from '../../public/assets/img/pinterst.png'
+import twitter from '../../public/assets/img/twitter.png'
+import instagram from '../../public/assets/img/instagram.png'
+import telegram from '../../public/assets/img/telegram.png'
 
 function Footer() {
   return (

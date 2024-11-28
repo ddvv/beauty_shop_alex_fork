@@ -1,6 +1,6 @@
 import React from "react";
 import "./modal.css";
-import googleImg from '../../assets/img/google_img.png'
+import googleImg from '../../../public/assets/img/google_img.png'
 import Input from "../../ui/Input/Input";
 import Button from "../../ui/Button/Button";
 

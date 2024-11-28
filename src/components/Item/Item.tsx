@@ -1,11 +1,11 @@
 import '../Item/item.css'
-import img from '../../assets/img/cream.png'
+import cream from '../../../public/assets/img/cream.png'
 
 function Item () {
     return (
         <div className="product-card">
             <div className="product-image">
-                <img src={img} alt="Soft Finish Product" />
+                <img src={cream} alt="Soft Finish Product" />
                 <button className="wishlist-btn">❤️</button>
             </div>
             <div className="product-info">
