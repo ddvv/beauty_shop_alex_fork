@@ -54,15 +54,14 @@
   color: rgba(245, 163, 183, 1);
 }
 
-/* Социальные иконки */
 .social-icons {
   display: flex;
-  gap: 15px;
+  gap: 60px;
 }
 
 .social-icons img {
-  width: 20px;
-  height: 20px;
+  width: 29px;
+  height: 29px;
   transition: transform 0.2s ease;
 }
 

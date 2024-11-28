@@ -1,23 +1,33 @@
 import '../styles/footer.css';
+import facebook from '../assets/img/facebook.png'
+import pinterst from '../assets/img/pinterst.png'
+import twitter from '../assets/img/twitter.png'
+import instagram from '../assets/img/instagram.png'
+import telegram from '../assets/img/telegram.png'
+
+
+
+
+
 
 function Footer() {
   return (
     <footer className="footer-container">
         <div className="footer-section social-icons">
           <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
-            <img src="path/to/facebook-icon.png" alt="Facebook" />
+            <img src={facebook} alt="Facebook" />
           </a>
           <a href="https://pinterest.com" target="_blank" rel="noopener noreferrer">
-            <img src="path/to/pinterest-icon.png" alt="Pinterest" />
+            <img src={pinterst} alt="Pinterest" />
           </a>
           <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <img src="path/to/twitter-icon.png" alt="Twitter" />
+            <img src={twitter} alt="Twitter" />
           </a>
           <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
-            <img src="path/to/instagram-icon.png" alt="Instagram" />
+            <img src={instagram} alt="Instagram" />
           </a>
           <a href="https://telegram.org" target="_blank" rel="noopener noreferrer">
-            <img src="path/to/telegram-icon.png" alt="Telegram" />
+            <img src={telegram} alt="Telegram" />
           </a>
         </div>
       <div className="footer-main">
