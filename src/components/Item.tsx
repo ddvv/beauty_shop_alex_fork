@@ -1,5 +1,5 @@
-import '../Item/item.css'
-import cream from '../../../public/assets/img/aqua.png'
+import '../styles/item.css'
+import cream from '../../public/assets/img/aqua.png'
 
 function Item () {
     return (

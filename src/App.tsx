@@ -1,7 +1,7 @@
 import './App.css';
 import './App.css';
 import Header from './layout/Header/Header'
-import Banner from './components/Banner/Banner'
+import Banner from './components/Banner'
 import NewArrivals from './components/NewArrivals';
 import BestSallers from './components/BestSallers';
 import BlossomGlowKit from './components/BlossomGlowKit'
