@@ -1,6 +1,6 @@
 import '../styles/inst.css';
 import iamageInst from '../../public/assets/img/soft_finish.png'
-
+import Button from '../ui/Button/Button';
 
 
 const InstagramSection = () => {
@@ -29,13 +29,13 @@ const InstagramSection = () => {
           <div className="gallery-image" key={index}>
             <img src={src} alt={`Gallery image ${index + 1}`} />
             <div className="overlay">
-              <button className="overlay-button">See In</button>
-              <button className="overlay-button buy-now">Buy Now</button>
+              <Button className="overlay-button" onClick={() => {alert("instagram")}}>See In</Button>
+              <Button className="overlay-button buy-now" onClick={() => {alert("buy now")}}>Buy Now</Button>
             </div>
           </div>
         ))}
       </div>
-      <button className="gallery-button">Follow Us</button>
+      <Button className="gallery-button" onClick={() => {alert("Follow Us")}}>Follow Us</Button>
     </div>
   );
 };

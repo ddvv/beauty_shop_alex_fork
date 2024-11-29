@@ -1,5 +1,6 @@
 import '../styles/quiz.css';
 import mask from '../../public/assets/img/mask.svg'
+import Button from '../ui/Button/Button';
 
 const SkinQuiz = () => {
     return (
@@ -11,7 +12,7 @@ const SkinQuiz = () => {
                 <div className="skin-quiz-text">
                     <h2>The Skin Quiz</h2>
                     <p>Meet the quiz that will curate a routine just as unique as you are.</p>
-                    <button className="explore-button">Explore More</button>
+                    <Button className="explore-button" onClick={() => {alert("quize")}}>Explore More</Button>
                 </div>
                 
             </div>
