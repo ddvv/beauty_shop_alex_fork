@@ -88,6 +88,7 @@
 
 .read-more-button {
     display: inline-block;
+    height: 41px;
     padding: 10px 20px;
     font-size: 14px;
     font-weight: bold;

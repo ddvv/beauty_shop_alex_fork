@@ -36,11 +36,15 @@
 }
 
 .gallery-images {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  flex-wrap: wrap;
   gap: 10px;
   width: 70%;
   margin-bottom: 20px;
+}
+
+.gallery-images > * {
+  flex: 1 1 calc((25% - 10px));
 }
 
 .gallery-image {
@@ -109,6 +113,7 @@
   padding: 10px 20px;
   font-size: 14px;
   width: 250px;
+  height: 41px;
   background-color: rgba(245, 163, 183, 1);
   border: none;
   border-radius: 5px;
