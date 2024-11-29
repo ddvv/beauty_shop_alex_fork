@@ -63,11 +63,11 @@
   width: 29px;
   height: 29px;
   transition: transform 0.2s ease;
+  cursor: pointer;
 }
 
 .social-icons img:hover {
   transform: scale(1.1); 
-  cursor: pointer;
 }
 
 .footer-subscribe {

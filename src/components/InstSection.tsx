@@ -30,7 +30,7 @@ const InstagramSection = () => {
             <img src={src} alt={`Gallery image ${index + 1}`} />
             <div className="overlay">
               <Button className="overlay-button" onClick={() => {alert("instagram")}}>See In</Button>
-              <Button className="overlay-button buy-now" onClick={() => {alert("buy now")}}>Buy Now</Button>
+              <Button className="overlay-button" onClick={() => {alert("buy now")}}>Buy Now</Button>
             </div>
           </div>
         ))}
