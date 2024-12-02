@@ -1,5 +1,6 @@
 import React, {FC} from "react";
-import './input.css'
+import cn from 'classnames';
+import * as styles from  './input.module.css';
 
 type Props = {
     classNames?: string;
@@ -8,7 +9,7 @@ type Props = {
 const Input: FC<Props> = ({ classNames, ...inputAttributes }) => {
     return (
         <input
-            className={classNames}
+            className={cn(styles.input, classNames)}
             {...inputAttributes}
         />
     )

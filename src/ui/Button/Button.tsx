@@ -1,5 +1,6 @@
 import React, {FC} from "react";
-import './button.css'
+import cn from 'classnames';
+import * as styles from './button.module.css';
 
 type Props = {
     className?: string;
@@ -9,7 +10,7 @@ type Props = {
 
 const Button: FC<Props> = ({ children, onClick, className }) => {
     return (
-        <button className={className || 'button'} onClick={onClick}>
+        <button className={cn(styles.button, className)} onClick={onClick}>
             {children}
         </button>
     );
