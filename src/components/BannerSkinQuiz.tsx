@@ -1,6 +1,6 @@
 import '../styles/quiz.css';
 import mask from '../../public/assets/img/mask.svg'
-import Button from '../ui/Button/Button';
+import {Button} from '../ui/Button';
 
 const SkinQuiz = () => {
     return (

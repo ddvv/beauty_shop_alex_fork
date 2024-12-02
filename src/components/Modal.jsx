@@ -1,8 +1,8 @@
 import React from "react";
 import "../styles/modal.css";
 import googleImg from '../../public/assets/img/google_img.png'
-import Input from "../ui/Input/Input";
-import Button from "../ui/Button/Button";
+import {Input} from "../ui/Input";
+import {Button} from "../ui/Button";
 
 const Modal = ({ onClose }) => {
     return (

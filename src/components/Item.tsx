@@ -1,6 +1,6 @@
 import '../styles/item.css'
 import cream from '../../public/assets/img/aqua.png'
-import Button from '../ui/Button/Button'
+import {Button} from '../ui/Button'
 
 function Item () {
     return (

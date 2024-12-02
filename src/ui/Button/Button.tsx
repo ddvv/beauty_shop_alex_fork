@@ -8,12 +8,10 @@ type Props = {
     children: React.ReactNode;
 }
 
-const Button: FC<Props> = ({ children, onClick, className }) => {
+export const Button: FC<Props> = ({ children, onClick, className }) => {
     return (
         <button className={cn(styles.button, className)} onClick={onClick}>
             {children}
         </button>
     );
 }
-
-export default Button

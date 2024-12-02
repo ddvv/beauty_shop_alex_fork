@@ -6,7 +6,7 @@ type Props = {
     classNames?: string;
 } & Omit<React.InputHTMLAttributes<HTMLInputElement>, 'type' | 'placeholder' | 'value'>;
 
-const Input: FC<Props> = ({ classNames, ...inputAttributes }) => {
+export const Input: FC<Props> = ({ classNames, ...inputAttributes }) => {
     return (
         <input
             className={cn(styles.input, classNames)}
@@ -14,5 +14,3 @@ const Input: FC<Props> = ({ classNames, ...inputAttributes }) => {
         />
     )
 }
-
-export default Input

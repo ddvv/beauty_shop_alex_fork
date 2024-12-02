@@ -1,6 +1,6 @@
 import '../styles/inst.css';
 import iamageInst from '../../public/assets/img/soft_finish.png'
-import Button from '../ui/Button/Button';
+import {Button} from '../ui/Button';
 
 
 const InstagramSection = () => {
