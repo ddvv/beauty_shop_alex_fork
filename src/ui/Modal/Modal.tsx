@@ -1,5 +1,5 @@
 import React, {FC} from "react";
-import * as styles from "./index.module.css";
+import styles from "./index.module.css";
 import {Portal} from "../Portal/Portal";
 
 type Props = {
