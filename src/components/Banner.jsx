@@ -1,5 +1,5 @@
 import bannerImg from '../../public/assets/img/bannerImg.png'
-import Button from '../ui/Button/Button';
+import {Button} from '../ui/Button';
 import '../styles/banner.css'
 
 
