@@ -66,7 +66,7 @@ function Footer() {
           <p>Stay informed, subscribe to our newsletter now!</p>
           <div className="subscribe-form">
             <input type="email" placeholder="Email" />
-            <a>Subscribe →</a>
+            <a className="subscribe-form-link">Subscribe →</a>
           </div>
         </div>
       </div>
@@ -74,8 +74,8 @@ function Footer() {
       <div className="footer-bottom">
         <p>&copy; 2023 Bloom Beauty</p>
         <div className="footer-links">
-          <a href="#">Privacy Policy</a>
-          <a href="#">Terms and Conditions</a>
+          <a className="footer-link" href="#">Privacy Policy</a>
+          <a className="footer-link" href="#">Terms and Conditions</a>
         </div>
       </div>
     </footer>
