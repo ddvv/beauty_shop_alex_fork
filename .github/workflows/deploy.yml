@@ -23,16 +23,16 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install
-
-      - name: Lint
-        run: npm run build
+        run: npm ci
 
       - name: Lint scripts
-        run: npm run lint
+        run: npm run lint:scripts
 
       - name: Lint styles
         run: npm run lint:css
+
+      - name: Build
+        run: npm run build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

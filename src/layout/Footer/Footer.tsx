@@ -29,8 +29,8 @@ function Footer() {
       <div className="footer-main">
         <div className="footer-section company-info">
           <h3><span className="brand-name">Bloom</span> Beauty</h3>
-          <p>Discover nature's beauty with our natural care products.</p>
-          <p> 
+          <p>Discover nature&#39;s beauty with our natural care products.</p>
+          <p>
             <span>📞 +38 050 123 45 67</span><br />
             <span>📧 bloombt@gmail.com</span><br />
             <span>📍 Kyiv, Ukraine</span>
@@ -57,7 +57,7 @@ function Footer() {
         <div className="footer-section third">
           <h3>Customer Care</h3>
           <ul>
-            <li><a href="#">About us</a></li> 
+            <li><a href="#">About us</a></li>
           </ul>
         </div>
 
@@ -70,7 +70,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      
+
       <div className="footer-bottom">
         <p>&copy; 2023 Bloom Beauty</p>
         <div className="footer-links">
